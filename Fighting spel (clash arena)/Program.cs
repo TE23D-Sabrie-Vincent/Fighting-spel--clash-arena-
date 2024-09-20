@@ -1,4 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using System.Runtime.Intrinsics.Arm;
+
 int ClasherHP = 100;
 // Hur mycket HP du har från start
 int EvilHP = 100;
@@ -10,13 +12,21 @@ System.Console.WriteLine("What is thy nameth fellow clasher?");
 //Console skriver en text (i denna fall en fråga om vad du heter)
 
 string ClasherName = Console.ReadLine();
-while (ClasherName == "")
+if (ClasherName == "")
 {
-    System.Console.WriteLine("\nWow, vilket fint namn att du heter        !");
-    System.Console.WriteLine("Skriv ett namn nu din lilla sussy baka\n");
-    
+    System.Console.WriteLine("Wow, vilket fint namn att du heter        !");
+}
+    while (ClasherName == "")
+    {
+    System.Console.WriteLine("Skriv ett namn nu din lilla sussy baka");
+    ClasherName = Console.ReadLine();
+    }
+while  (ClasherName.Length >= 7)
+{
+    System.Console.WriteLine("aja baja, du har förlångt namn");
     ClasherName = Console.ReadLine();
 }
+
  
 //Ditt namn är vad du skriver, detta används igenom hela spelet
 string EvilName = "Mini Pekka";
