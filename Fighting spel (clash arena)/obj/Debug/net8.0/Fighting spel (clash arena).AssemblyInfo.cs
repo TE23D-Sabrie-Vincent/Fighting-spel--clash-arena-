@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Fighting spel (clash arena)")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5826045cb6a1da5a100fac7388ab5c88cf14ec17")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+393c01f0ec7ede7f08bcf76b8a0ddddc7626913d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Fighting spel (clash arena)")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Fighting spel (clash arena)")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
